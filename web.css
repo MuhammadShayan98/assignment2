@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+
+body{
+margin: 0px;
+}
+header{
+	background: black;
+	color:yellow;
+	padding: 6px 0px 6px 40px;
+	height: 50px;
+}
+header h1{
+	display: inline;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 300px;
+	font-size: 30px;
+	float: left;
+margin-top: 6px;
+margin-right: 0px;
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+
+}
+nav ul li{
+display: inline-block;
+list-style-type: none; 
+float: left;
+color: #E7F643;
+margin-left: 20px;
+}
+a{
+	color: white;
+	text-decoration: none;
+font-size: 100%;
+font-weight: bold;
+}
+#no{
+	font-family: 'Open Sans', sans-serif;
+}
+.blue{
+	background-color: #4CB344;
+	height: 10px;
+}
+.green{
+	background-color: #4CB344;
+padding: 30px 10px 18px 10px;
+}
+.red:hover{
+	background-color: #E7F643;
+	padding: 30px 5px 18px 5px;
+}
+.img1{
+	background-image: url(wall.jpg);
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+.search-box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background:black;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.search-btn{
+	color: #4CB344;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: yellow;
+	display: flex;
+	justify-content: center;
+align-items: center;
+}
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+}
+#carousel {
+    width: 100%;
+    height: 100px;
+    background-color: #ff0000;
+    overflow: auto;
+}
+
+#carousel .slide {
+    display: inline-block;
+}
+#carousel {
+    width: 100%;
+    height: 100px;
+    background-color: #ff0000;
+        background-size: cover;
+margin: 0;
+padding: 0px;
+    overflow: visible;
+    white-space:nowrap;
+}
+
+#carousel .slide {
+    display: inline-block;
+}
+#head{
+	text-align: center;
+	font-style: italic;
+	font: bold;
+	color: #4CB344;
+	font-size: 70px;
+}
+.rr{
+	background-color: #4CB344;
+padding: 30px 10px 18px 10px;
+margin-left: 710px;
+font-size: 20px;
+}
